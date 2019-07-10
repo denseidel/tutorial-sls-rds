@@ -1,0 +1,27 @@
+service:
+  name: aws-nodejs-typescript
+#app: your-app-name
+#tenant: your-tenant-name
+
+# Add the serverless-webpack plugin
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  getTenant:
+    handler: handler.getTenant
+    events:
+      - http:
+          method: get
+          path: tenants
+  createTenant:
+    handler: handler.createTenant
+    events:
+      - http:
+          method: post
+          path: tenants
+  
