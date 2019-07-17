@@ -8,6 +8,20 @@
 
 create `/infrastructure` with Terraform to setup the infrastructure with a Aurora Servleress
 
+#### Enable Data API
+
+https://s3-us-west-2.amazonaws.com/rds-data-preview/Amazon+Aurora+Serverless+Data+API_Preview-05-01.pdf
+https://medium.com/@cmani/look-ma-no-database-connection-pools-67efb87e108
+https://github.com/giuseppeborgese/terraform-aws-secret-manager-with-rotation/blob/master/main.tf
+
+https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/query-editor.html
+https://www.w3schools.com/sql/sql_datatypes.asp
+https://dev.mysql.com/doc/refman/8.0/en/create-table.html
+https://s3-us-west-2.amazonaws.com/rds-data-preview/Amazon+Aurora+Serverless+Data+API_Preview-05-01.pdf
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/RDSDataService.html#executeStatement-property
+https://aws.amazon.com/blogs/aws/new-data-api-for-amazon-aurora-serverless/
+
+
 ### Setup a sample serverless api 
 
 Create a simple servleress api that create a entry in the data base
