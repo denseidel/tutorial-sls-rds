@@ -1,9 +1,9 @@
-variable "db_user" {
+variable "mysql_username" {
   type    = "string"
   default = "admin"
 }
 
-variable "db_password" {
+variable "mysql_password" {
   type = "string"
 }
 
