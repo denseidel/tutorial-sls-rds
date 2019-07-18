@@ -6,4 +6,4 @@ create table tenant_management.tenants (
   userId varchar(255),
   userRole varchar(255),
   createdAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
-) create table tenant_management.users (userId nicht_notwendig_da_users_im_iam)
+)
